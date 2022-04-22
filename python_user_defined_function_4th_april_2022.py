@@ -202,7 +202,7 @@ print(var)
 
 count = 0
 def fun():
-    global count
+    global count 
     print("hello",count)
     count = count + 1 
     while count < 100:
